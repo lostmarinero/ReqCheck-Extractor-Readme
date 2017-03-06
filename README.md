@@ -55,12 +55,9 @@ There are none!
 #### Config.Json
 For information regarding how to configure the application, please see the [Config Readme](CONFIG-SQL.md)
 
-Do note that the "reqcheck_username" and "reqcheck_password" must be set.
-
 #### Clone the Repo
-```
-git clone (REDACTED)
-```
+
+### REDACTED
 
 #### Install Dependencies
 ```
@@ -83,7 +80,7 @@ The first step is to move the code onto the server. Due to the sensitive nature 
 #### Build the msi on a Windows Machine
 
 1. Open powershell as an administator.
-2. Go to the directory with the code in it. The "OFFICIAL COMPORT VIRTUAL BOX IMAGE" has the code stored in a shared folder which you can get to with the somewhat cumbersome `cd Microsoft.PowerShell.Core\FileSystem::\\vboxsvr\vbshare\reqcheck-extractor`. It's a shared folder only to allow code to be edited off of the vm, but if you're comfortable doing that you can keep things somewhere more sensible.
+2. Go to the directory with the code in it.
 3. `pip install -r requirements.txt` if you're using the existing vm everything should be there already.
 4. `python .\setup.py bdist_msi` will put an msi in the `dist` folder and a copy of what the installed application will look like in the `build\exe.win32-3.4` folder
 5. running the exe in `build\exe.win32-3.4` will let you test the application without running through the msi installation
