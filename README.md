@@ -1,5 +1,9 @@
 # ReqCheck-Extractor-Readme
-This repo is a host of Readme files for 'ReqCheck-Extractor', and Extract-Transform-Load process developed by the 2016 Code for America Fellowship Team working with the Kansas City, Missouri Health Department. Unfortunately, due to the sensitive nature of the data and the database, we are unable to share the full repo. Additionally, some sensitive information has been redacted. The goal of this repo is to demonstrate the work required to complete this task.
+This repo is a host of Readme files for 'ReqCheck-Extractor', and Extract-Transform-Load process developed by the 2016 Code for America Fellowship Team working with the Kansas City, Missouri Health Department.
+
+Unfortunately, due to the sensitive nature of the data and the database, we are unable to share the full repo.
+
+Additionally, some sensitive information has been redacted. The goal of this repo is to demonstrate the work required to complete this task.
 
 # ReqCheck-Extractor
 
