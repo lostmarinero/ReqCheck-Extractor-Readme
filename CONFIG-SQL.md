@@ -42,14 +42,13 @@ Copy `config.json.sample` to `config.json` and set the variables as described be
 
 ## Sample Config File
 
-When your config file is filled out, it should look something like this.
-
-Please see []().
+### REDACTED
 
 # The Query Files
 
 Each dataset requires a **query** file and a [template](#the-template-files) file. The locations and names of these files are defined in [config.json](#the-configjson-file). The query file contains a SQL query that is used to extract data from the database.
-Please see []()
+
+### REDACTED
 
 Note the `?` at the end of the query. When the query is run, that `?` will be replaced with the extraction start date.
 
@@ -57,7 +56,7 @@ Note the `?` at the end of the query. When the query is run, that `?` will be re
 
 Each dataset requires a [query](#the-query-files) file and a **template** file. The locations and names of these files are defined in [config.json](#the-configjson-file). The template file contains a JSON object that is used to transform data extracted from the database by the corresponding query. Here's a very simple example that transforms data extracted by the [query above](#the-query-files):
 
-Please see the []()
+### REDACTED
 
 
 The accepted values for `process_as` are:
@@ -71,4 +70,4 @@ If you have a value that you want to anonymize *within the context of a single i
 
 The template defines how an incident will look when it's written to disk, or posted to a web service. A CSV file generated using the above query and template would look like this:
 
-Please see the []()
+### REDACTED
